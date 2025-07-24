@@ -1,0 +1,1 @@
+# barteron-categories-generator
