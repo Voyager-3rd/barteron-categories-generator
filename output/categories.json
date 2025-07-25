@@ -93,28 +93,28 @@
 		"id": 6010,
 		"parent": 6009,
 		"children": [],
-		"order": 70
+		"order": 10
 	},
 	"6011": {
 		"name": "jet_skis",
 		"id": 6011,
 		"parent": 6009,
 		"children": [],
-		"order": 80
+		"order": 20
 	},
 	"6012": {
 		"name": "boats_and_yachts",
 		"id": 6012,
 		"parent": 6009,
 		"children": [],
-		"order": 90
+		"order": 30
 	},
 	"6013": {
 		"name": "motor_boats_and_motors",
 		"id": 6013,
 		"parent": 6009,
 		"children": [],
-		"order": 100
+		"order": 40
 	},
 	"6014": {
 		"name": "trucks_and_special_equipment",
@@ -145,112 +145,112 @@
 		"id": 6015,
 		"parent": 6014,
 		"children": [],
-		"order": 110
+		"order": 10
 	},
 	"6016": {
 		"name": "motorhomes",
 		"id": 6016,
 		"parent": 6014,
 		"children": [],
-		"order": 120
+		"order": 20
 	},
 	"6017": {
 		"name": "truck_cranes",
 		"id": 6017,
 		"parent": 6014,
 		"children": [],
-		"order": 130
+		"order": 30
 	},
 	"6018": {
 		"name": "bulldozers",
 		"id": 6018,
 		"parent": 6014,
 		"children": [],
-		"order": 140
+		"order": 40
 	},
 	"6019": {
 		"name": "trucks",
 		"id": 6019,
 		"parent": 6014,
 		"children": [],
-		"order": 150
+		"order": 50
 	},
 	"6020": {
 		"name": "municipal_equipment",
 		"id": 6020,
 		"parent": 6014,
 		"children": [],
-		"order": 160
+		"order": 60
 	},
 	"6021": {
 		"name": "light_commercial_vehicles",
 		"id": 6021,
 		"parent": 6014,
 		"children": [],
-		"order": 170
+		"order": 70
 	},
 	"6022": {
 		"name": "attachments",
 		"id": 6022,
 		"parent": 6014,
 		"children": [],
-		"order": 180
+		"order": 80
 	},
 	"6023": {
 		"name": "loaders",
 		"id": 6023,
 		"parent": 6014,
 		"children": [],
-		"order": 190
+		"order": 90
 	},
 	"6024": {
 		"name": "trailers",
 		"id": 6024,
 		"parent": 6014,
 		"children": [],
-		"order": 200
+		"order": 100
 	},
 	"6025": {
 		"name": "agricultural_equipment",
 		"id": 6025,
 		"parent": 6014,
 		"children": [],
-		"order": 210
+		"order": 110
 	},
 	"6026": {
 		"name": "construction_equipment",
 		"id": 6026,
 		"parent": 6014,
 		"children": [],
-		"order": 220
+		"order": 120
 	},
 	"6027": {
 		"name": "logging_equipment",
 		"id": 6027,
 		"parent": 6014,
 		"children": [],
-		"order": 230
+		"order": 130
 	},
 	"6028": {
 		"name": "truck_tractors",
 		"id": 6028,
 		"parent": 6014,
 		"children": [],
-		"order": 240
+		"order": 140
 	},
 	"6029": {
 		"name": "excavators",
 		"id": 6029,
 		"parent": 6014,
 		"children": [],
-		"order": 250
+		"order": 150
 	},
 	"6030": {
 		"name": "other",
 		"id": 6030,
 		"parent": 6014,
 		"children": [],
-		"order": 260
+		"order": 160
 	},
 	"6031": {
 		"name": "spare_parts_and_accessories",
@@ -281,7 +281,7 @@
 			6035,
 			6036
 		],
-		"order": 270
+		"order": 10
 	},
 	"6033": {
 		"name": "for_cars",
@@ -323,111 +323,111 @@
 			6042,
 			6043
 		],
-		"order": 280
+		"order": 20
 	},
 	"6038": {
 		"name": "car_tires",
 		"id": 6038,
 		"parent": 6037,
 		"children": [],
-		"order": 50
+		"order": 10
 	},
 	"6039": {
 		"name": "tires_for_trucks_and_special_equipment",
 		"id": 6039,
 		"parent": 6037,
 		"children": [],
-		"order": 60
+		"order": 20
 	},
 	"6040": {
 		"name": "motorcycle_tires",
 		"id": 6040,
 		"parent": 6037,
 		"children": [],
-		"order": 70
+		"order": 30
 	},
 	"6041": {
 		"name": "disks",
 		"id": 6041,
 		"parent": 6037,
 		"children": [],
-		"order": 80
+		"order": 40
 	},
 	"6042": {
 		"name": "hubs",
 		"id": 6042,
 		"parent": 6037,
 		"children": [],
-		"order": 90
+		"order": 50
 	},
 	"6043": {
 		"name": "wheels",
 		"id": 6043,
 		"parent": 6037,
 		"children": [],
-		"order": 100
+		"order": 60
 	},
 	"6044": {
 		"name": "audio_and_video_equipment",
 		"id": 6044,
 		"parent": 6031,
 		"children": [],
-		"order": 290
+		"order": 30
 	},
 	"6045": {
 		"name": "accessories",
 		"id": 6045,
 		"parent": 6031,
 		"children": [],
-		"order": 300
+		"order": 40
 	},
 	"6046": {
 		"name": "racks_and_towbars",
 		"id": 6046,
 		"parent": 6031,
 		"children": [],
-		"order": 310
+		"order": 50
 	},
 	"6047": {
 		"name": "tools",
 		"id": 6047,
 		"parent": 6031,
 		"children": [],
-		"order": 320
+		"order": 60
 	},
 	"6048": {
 		"name": "trailers",
 		"id": 6048,
 		"parent": 6031,
 		"children": [],
-		"order": 330
+		"order": 70
 	},
 	"6049": {
 		"name": "equipment",
 		"id": 6049,
 		"parent": 6031,
 		"children": [],
-		"order": 340
+		"order": 80
 	},
 	"6050": {
 		"name": "oils_and_car_chemicals",
 		"id": 6050,
 		"parent": 6031,
 		"children": [],
-		"order": 350
+		"order": 90
 	},
 	"6051": {
 		"name": "anti-theft_devices",
 		"id": 6051,
 		"parent": 6031,
 		"children": [],
-		"order": 360
+		"order": 100
 	},
 	"6052": {
 		"name": "gps-navigators",
 		"id": 6052,
 		"parent": 6031,
 		"children": [],
-		"order": 370
+		"order": 110
 	}
 }
