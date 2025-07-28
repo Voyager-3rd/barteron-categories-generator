@@ -98,12 +98,15 @@ try {
 		fs.writeFileSync(`./output/${m}.json`, i18nData[m]);
 	});
 
+	// creating categories file
+	//
 	const categories = {};
 	let id = inputParams.id;
 	const 
 		parentByShift = {},
 		orderByShift = {};
 
+	// getting data from source file to create categories with children if they exist
 	for (let index = 0; index < keyFileRows.length; index++) {
 		const 
 			row = keyFileRows[index],
@@ -143,6 +146,7 @@ try {
 		
 	};
 
+	// writing categories
 	fs.writeFileSync(`./output/categories.json`, JSON.stringify(categories, null, "\t"));
 
 	console.log("✅ SUCCESS!");
