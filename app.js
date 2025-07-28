@@ -4,19 +4,17 @@ const inputParams = {
 	order: 3000,
 	icon: "fa-car",
 	shift: "****",
+	keyFileName: "en-US",
+	fileNames: [
+		"en-US",
+		"ru-RU",
+		"sr-RS",
+	],
 };
 
 var existing = null;
 
 const fs = require('fs');
-
-const
-	keyFileName = "en-US",
-	fileNames = [
-		"en-US",
-		"ru-RU",
-		"sr-RS",
-	];
 
 function getShift(row) {
 	let result = 0;
@@ -37,19 +35,22 @@ function getNextId(id) {
 
 try {
 
+	// get existing categories data
 	existing = {
 		data: JSON.parse(fs.readFileSync('./input/existing/data/categories.json', 'utf8')),
 		i18n: JSON.parse(fs.readFileSync('./input/existing/i18n/categories.json', 'utf8')),
 	};
 
+	// check input id
 	if (inputParams.isNew && existing?.data?.[inputParams.id]) {
 		throw new Error(`inputParams.id = ${inputParams.id} - already exists in source file`);
 	} else if (!(inputParams.isNew) && !(existing?.data?.[inputParams.id])) {
 		throw new Error(`inputParams.id = ${inputParams.id} - must be exists in source file`);
 	};
 
+	// read input raw files to create new categories
 	const files = {};
-	fileNames.forEach(m => {
+	inputParams.fileNames.forEach(m => {
 		const text = fs.readFileSync(`./input/${m}.txt`, 'utf8');
 		files[m] = text
 			.split(/\r?\n/)
@@ -57,8 +58,9 @@ try {
 			.filter(f => f.length);
 	});
 
+	// creating i18n keys of categories from input key file
 	const 
-		keyFileRows = files[keyFileName],
+		keyFileRows = files[inputParams.keyFileName],
 		i18nKeys = keyFileRows
 			.map(m => m
 				.toLowerCase()
@@ -67,20 +69,32 @@ try {
 				.replaceAll("****", "")
 			);
 	
+	// creating i18n files for categories
 	const i18nData = {};
-	fileNames.forEach(fileName => {
+	inputParams.fileNames.forEach(fileName => {
 		const 
 			fileRows = files[fileName],
 			currentData = {};
 
+		// getting i18n values
 		i18nKeys.forEach((key, index) => {
 			currentData[key] = fileRows[index].replaceAll("****","");
 		});
 
+		// checking for i18n keys unique
+		i18nKeys.forEach((key, index) => {
+			if (existing.i18n?.[key]) {
+				console.warn(`⚠️ ${fileName}, Duplicated key removed: "${key}"; Current value: "${currentData[key]}"${ (fileName === inputParams.keyFileName) ? ", Existing value: \"" + existing.i18n?.[key] + "\"" : "" }`);
+				delete currentData[key];
+			};
+		});
+
+		// convert to JSON
 		i18nData[fileName] = JSON.stringify(currentData, null, "\t");
 	});
 
-	fileNames.forEach(m => {
+	// writing i18n files
+	inputParams.fileNames.forEach(m => {
 		fs.writeFileSync(`./output/${m}.json`, i18nData[m]);
 	});
 
