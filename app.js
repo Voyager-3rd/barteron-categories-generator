@@ -83,7 +83,7 @@ try {
 
 		// checking for i18n keys unique
 		i18nKeys.forEach((key, index) => {
-			if (existing.i18n?.[key]) {
+			if (existing.i18n?.[key] && currentData[key]) {
 				console.warn(`⚠️ ${fileName}, Duplicated key removed: "${key}"; Current value: "${currentData[key]}"${ (fileName === inputParams.keyFileName) ? ", Existing value: \"" + existing.i18n?.[key] + "\"" : "" }`);
 				delete currentData[key];
 			};
