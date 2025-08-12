@@ -1,8 +1,8 @@
 const inputParams = {
-	id: 6000,
+	id: 10542,
 	isNew: false,
-	order: 3000,
-	icon: "fa-car",
+	order: 3100,
+	icon: "fa-building",
 	shift: "****",
 	keyFileName: "en-US",
 	fileNames: [
@@ -65,6 +65,8 @@ try {
 			.map(m => m
 				.toLowerCase()
 				.replaceAll(/\s*,\s*/g, "_")
+				.replaceAll("(", "")
+				.replaceAll(")", "")
 				.replaceAll(/\s+/g, "_")
 				.replaceAll("****", "")
 			);
