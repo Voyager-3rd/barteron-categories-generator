@@ -1,433 +1,205 @@
 {
-	"6000": {
-		"name": "transport_spare_parts_accessories",
-		"icon": "fa-car",
-		"id": 6000,
+	"5000": {
+		"name": "health",
+		"icon": "fa-heartbeat",
+		"id": 5000,
 		"parent": null,
 		"children": [
-			6001,
-			6002,
-			6009,
-			6014,
-			6031
+			5001,
+			5002,
+			5019,
+			5020
 		],
-		"order": 3000
+		"order": 342
 	},
-	"6001": {
-		"name": "cars",
-		"id": 6001,
-		"parent": 6000,
+	"5001": {
+		"name": "medicinal_plants",
+		"id": 5001,
+		"parent": 5000,
 		"children": [],
 		"order": 10
 	},
-	"6002": {
-		"name": "motorcycles_and_motor_vehicles",
-		"id": 6002,
-		"parent": 6000,
+	"5002": {
+		"name": "dietary_supplements_ds",
+		"id": 5002,
+		"parent": 5000,
 		"children": [
-			6003,
-			6004,
-			6005,
-			6006,
-			6007,
-			6008
+			5003,
+			5004,
+			5005,
+			5006,
+			5007,
+			5008,
+			5009,
+			5010,
+			5011,
+			5012,
+			5013,
+			5014,
+			5015,
+			5016,
+			5017,
+			5018
 		],
 		"order": 20
 	},
-	"6003": {
-		"name": "all-terrain_vehicles",
-		"id": 6003,
-		"parent": 6002,
+	"5003": {
+		"name": "ds_for_the_gastrointestinal_tract_and_metabolism",
+		"id": 5003,
+		"parent": 5002,
 		"children": [],
 		"order": 10
 	},
-	"6004": {
-		"name": "karting",
-		"id": 6004,
-		"parent": 6002,
+	"5004": {
+		"name": "ds_for_weight_management",
+		"id": 5004,
+		"parent": 5002,
 		"children": [],
 		"order": 20
 	},
-	"6005": {
-		"name": "atvs_and_buggies",
-		"id": 6005,
-		"parent": 6002,
+	"5005": {
+		"name": "toning_and_general_strengthening_ds",
+		"id": 5005,
+		"parent": 5002,
 		"children": [],
 		"order": 30
 	},
-	"6006": {
-		"name": "mopeds_and_scooters",
-		"id": 6006,
-		"parent": 6002,
+	"5006": {
+		"name": "fish_oil_and_omega_ds",
+		"id": 5006,
+		"parent": 5002,
 		"children": [],
 		"order": 40
 	},
-	"6007": {
-		"name": "motorcycles",
-		"id": 6007,
-		"parent": 6002,
+	"5007": {
+		"name": "ds_for_bones_and_joints",
+		"id": 5007,
+		"parent": 5002,
 		"children": [],
 		"order": 50
 	},
-	"6008": {
-		"name": "snowmobiles",
-		"id": 6008,
-		"parent": 6002,
+	"5008": {
+		"name": "sedative_calming_ds",
+		"id": 5008,
+		"parent": 5002,
 		"children": [],
 		"order": 60
 	},
-	"6009": {
-		"name": "water_transport",
-		"id": 6009,
-		"parent": 6000,
-		"children": [
-			6010,
-			6011,
-			6012,
-			6013
-		],
-		"order": 30
-	},
-	"6010": {
-		"name": "rowing_boats",
-		"id": 6010,
-		"parent": 6009,
-		"children": [],
-		"order": 10
-	},
-	"6011": {
-		"name": "jet_skis",
-		"id": 6011,
-		"parent": 6009,
-		"children": [],
-		"order": 20
-	},
-	"6012": {
-		"name": "boats_and_yachts",
-		"id": 6012,
-		"parent": 6009,
-		"children": [],
-		"order": 30
-	},
-	"6013": {
-		"name": "motor_boats_and_motors",
-		"id": 6013,
-		"parent": 6009,
-		"children": [],
-		"order": 40
-	},
-	"6014": {
-		"name": "trucks_and_special_equipment",
-		"id": 6014,
-		"parent": 6000,
-		"children": [
-			6015,
-			6016,
-			6017,
-			6018,
-			6019,
-			6020,
-			6021,
-			6022,
-			6023,
-			6024,
-			6025,
-			6026,
-			6027,
-			6028,
-			6029,
-			6030
-		],
-		"order": 40
-	},
-	"6015": {
-		"name": "buses",
-		"id": 6015,
-		"parent": 6014,
-		"children": [],
-		"order": 10
-	},
-	"6016": {
-		"name": "motorhomes",
-		"id": 6016,
-		"parent": 6014,
-		"children": [],
-		"order": 20
-	},
-	"6017": {
-		"name": "truck_cranes",
-		"id": 6017,
-		"parent": 6014,
-		"children": [],
-		"order": 30
-	},
-	"6018": {
-		"name": "bulldozers",
-		"id": 6018,
-		"parent": 6014,
-		"children": [],
-		"order": 40
-	},
-	"6019": {
-		"name": "trucks",
-		"id": 6019,
-		"parent": 6014,
-		"children": [],
-		"order": 50
-	},
-	"6020": {
-		"name": "municipal_equipment",
-		"id": 6020,
-		"parent": 6014,
-		"children": [],
-		"order": 60
-	},
-	"6021": {
-		"name": "light_commercial_vehicles",
-		"id": 6021,
-		"parent": 6014,
+	"5009": {
+		"name": "ds_for_women",
+		"id": 5009,
+		"parent": 5002,
 		"children": [],
 		"order": 70
 	},
-	"6022": {
-		"name": "attachments",
-		"id": 6022,
-		"parent": 6014,
+	"5010": {
+		"name": "ds_for_men",
+		"id": 5010,
+		"parent": 5002,
 		"children": [],
 		"order": 80
 	},
-	"6023": {
-		"name": "loaders",
-		"id": 6023,
-		"parent": 6014,
+	"5011": {
+		"name": "ds_for_veins_and_blood_vessels",
+		"id": 5011,
+		"parent": 5002,
 		"children": [],
 		"order": 90
 	},
-	"6024": {
-		"name": "trailers",
-		"id": 6024,
-		"parent": 6014,
+	"5012": {
+		"name": "ds_for_urological_conditions",
+		"id": 5012,
+		"parent": 5002,
 		"children": [],
 		"order": 100
 	},
-	"6025": {
-		"name": "agricultural_equipment",
-		"id": 6025,
-		"parent": 6014,
+	"5013": {
+		"name": "ds_for_colds",
+		"id": 5013,
+		"parent": 5002,
 		"children": [],
 		"order": 110
 	},
-	"6026": {
-		"name": "construction_equipment",
-		"id": 6026,
-		"parent": 6014,
+	"5014": {
+		"name": "ds_for_enhancing_mental_performance",
+		"id": 5014,
+		"parent": 5002,
 		"children": [],
 		"order": 120
 	},
-	"6027": {
-		"name": "logging_equipment",
-		"id": 6027,
-		"parent": 6014,
+	"5015": {
+		"name": "anti-parasitic_ds",
+		"id": 5015,
+		"parent": 5002,
 		"children": [],
 		"order": 130
 	},
-	"6028": {
-		"name": "truck_tractors",
-		"id": 6028,
-		"parent": 6014,
+	"5016": {
+		"name": "amino_acid_ds",
+		"id": 5016,
+		"parent": 5002,
 		"children": [],
 		"order": 140
 	},
-	"6029": {
-		"name": "excavators",
-		"id": 6029,
-		"parent": 6014,
+	"5017": {
+		"name": "ds_for_vision_support",
+		"id": 5017,
+		"parent": 5002,
 		"children": [],
 		"order": 150
 	},
-	"6030": {
-		"name": "other",
-		"id": 6030,
-		"parent": 6014,
+	"5018": {
+		"name": "ds_for_harmful_habits",
+		"id": 5018,
+		"parent": 5002,
 		"children": [],
 		"order": 160
 	},
-	"6031": {
-		"name": "spare_parts_and_accessories",
-		"id": 6031,
-		"parent": 6000,
-		"children": [
-			6032,
-			6037,
-			6044,
-			6045,
-			6046,
-			6047,
-			6048,
-			6049,
-			6050,
-			6051,
-			6052
-		],
-		"order": 50
-	},
-	"6032": {
-		"name": "spare_parts",
-		"id": 6032,
-		"parent": 6031,
-		"children": [
-			6033,
-			6034,
-			6035,
-			6036
-		],
-		"order": 10
-	},
-	"6033": {
-		"name": "for_cars",
-		"id": 6033,
-		"parent": 6032,
-		"children": [],
-		"order": 10
-	},
-	"6034": {
-		"name": "for_motorcycles",
-		"id": 6034,
-		"parent": 6032,
-		"children": [],
-		"order": 20
-	},
-	"6035": {
-		"name": "for_trucks_and_special_equipment",
-		"id": 6035,
-		"parent": 6032,
+	"5019": {
+		"name": "complex_food_supplements",
+		"id": 5019,
+		"parent": 5000,
 		"children": [],
 		"order": 30
 	},
-	"6036": {
-		"name": "for_water_transport",
-		"id": 6036,
-		"parent": 6032,
-		"children": [],
+	"5020": {
+		"name": "extracts_and_tinctures",
+		"id": 5020,
+		"parent": 5000,
+		"children": [
+			5021,
+			5022,
+			5023,
+			5024
+		],
 		"order": 40
 	},
-	"6037": {
-		"name": "tires_disks_and_wheels",
-		"id": 6037,
-		"parent": 6031,
-		"children": [
-			6038,
-			6039,
-			6040,
-			6041,
-			6042,
-			6043
-		],
-		"order": 20
-	},
-	"6038": {
-		"name": "car_tires",
-		"id": 6038,
-		"parent": 6037,
+	"5021": {
+		"name": "alcohol-based_tinctures",
+		"id": 5021,
+		"parent": 5020,
 		"children": [],
 		"order": 10
 	},
-	"6039": {
-		"name": "tires_for_trucks_and_special_equipment",
-		"id": 6039,
-		"parent": 6037,
+	"5022": {
+		"name": "water_extracts",
+		"id": 5022,
+		"parent": 5020,
 		"children": [],
 		"order": 20
 	},
-	"6040": {
-		"name": "motorcycle_tires",
-		"id": 6040,
-		"parent": 6037,
+	"5023": {
+		"name": "oil_extracts",
+		"id": 5023,
+		"parent": 5020,
 		"children": [],
 		"order": 30
 	},
-	"6041": {
-		"name": "disks",
-		"id": 6041,
-		"parent": 6037,
+	"5024": {
+		"name": "concentrated_phyto-complexes",
+		"id": 5024,
+		"parent": 5020,
 		"children": [],
 		"order": 40
-	},
-	"6042": {
-		"name": "hubs",
-		"id": 6042,
-		"parent": 6037,
-		"children": [],
-		"order": 50
-	},
-	"6043": {
-		"name": "wheels",
-		"id": 6043,
-		"parent": 6037,
-		"children": [],
-		"order": 60
-	},
-	"6044": {
-		"name": "audio_and_video_equipment",
-		"id": 6044,
-		"parent": 6031,
-		"children": [],
-		"order": 30
-	},
-	"6045": {
-		"name": "accessories",
-		"id": 6045,
-		"parent": 6031,
-		"children": [],
-		"order": 40
-	},
-	"6046": {
-		"name": "racks_and_towbars",
-		"id": 6046,
-		"parent": 6031,
-		"children": [],
-		"order": 50
-	},
-	"6047": {
-		"name": "tools",
-		"id": 6047,
-		"parent": 6031,
-		"children": [],
-		"order": 60
-	},
-	"6048": {
-		"name": "trailers",
-		"id": 6048,
-		"parent": 6031,
-		"children": [],
-		"order": 70
-	},
-	"6049": {
-		"name": "equipment",
-		"id": 6049,
-		"parent": 6031,
-		"children": [],
-		"order": 80
-	},
-	"6050": {
-		"name": "oils_and_car_chemicals",
-		"id": 6050,
-		"parent": 6031,
-		"children": [],
-		"order": 90
-	},
-	"6051": {
-		"name": "anti-theft_devices",
-		"id": 6051,
-		"parent": 6031,
-		"children": [],
-		"order": 100
-	},
-	"6052": {
-		"name": "gps-navigators",
-		"id": 6052,
-		"parent": 6031,
-		"children": [],
-		"order": 110
 	}
 }

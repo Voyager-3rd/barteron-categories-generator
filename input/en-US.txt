@@ -1,58 +1,25 @@
-Transport, spare parts, accessories
-
-****Cars
-
-****Motorcycles and motor vehicles
-********All-terrain vehicles
-********Karting
-********ATVs and buggies
-********Mopeds and scooters
-********Motorcycles
-********Snowmobiles
-
-****Water transport
-********Rowing boats
-********Jet skis
-********Boats and yachts
-********Motor boats and motors
-
-****Trucks and special equipment
-********Buses
-********Motorhomes
-********Truck cranes
-********Bulldozers
-********Trucks
-********Municipal equipment
-********Light commercial vehicles
-********Attachments
-********Loaders
-********Trailers
-********Agricultural equipment
-********Construction equipment
-********Logging equipment
-********Truck tractors
-********Excavators
-********Other
-
-****Spare parts and accessories
-********Spare parts
-************For cars
-************For motorcycles
-************For trucks and special equipment
-************For water transport
-********Tires, disks and wheels
-************Car tires
-************Tires for trucks and special equipment
-************Motorcycle tires
-************Disks
-************Hubs
-************Wheels
-********Audio and video equipment
-********Accessories
-********Racks and towbars
-********Tools
-********Trailers
-********Equipment
-********Oils and car chemicals
-********Anti-theft devices
-********GPS-navigators
+Health
+****Medicinal Plants
+****Dietary Supplements (DS)
+********DS for the Gastrointestinal Tract and Metabolism
+********DS for Weight Management
+********Toning and General Strengthening DS
+********Fish Oil and Omega DS
+********DS for Bones and Joints
+********Sedative (Calming) DS
+********DS for Women
+********DS for Men
+********DS for Veins and Blood Vessels
+********DS for Urological Conditions
+********DS for Colds
+********DS for Enhancing Mental Performance
+********Anti-Parasitic DS
+********Amino Acid DS
+********DS for Vision Support
+********DS for Harmful Habits
+****Complex Food Supplements
+****Extracts and Tinctures
+********Alcohol-Based Tinctures
+********Water Extracts
+********Oil Extracts
+********Concentrated Phyto-Complexes

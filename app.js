@@ -1,8 +1,9 @@
 const inputParams = {
-	id: 10542,
-	isNew: false,
-	order: 3100,
-	icon: "fa-building",
+	id: 5000,
+	parent: null,
+	isNew: true,
+	order: 342,
+	icon: "fa-heartbeat",
 	shift: "****",
 	keyFileName: "en-US",
 	fileNames: [
@@ -67,6 +68,7 @@ try {
 				.replaceAll(/\s*,\s*/g, "_")
 				.replaceAll("(", "")
 				.replaceAll(")", "")
+				.replaceAll("'", "")
 				.replaceAll(/\s+/g, "_")
 				.replaceAll("****", "")
 			);
@@ -120,7 +122,7 @@ try {
 				name,
 				icon: inputParams.icon,
 				id,
-				parent: null,
+				parent:  inputParams.parent,
 				children: [],
 				order: inputParams.order,
 			};
