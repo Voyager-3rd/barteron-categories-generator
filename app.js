@@ -10,7 +10,7 @@ const inputParams = {
 		"en-US",
 		"ru-RU",
 		"sr-RS",
-	],
+	], 
 };
 
 var existing = null;
